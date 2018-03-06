@@ -74,21 +74,27 @@
 - Mixins
 */
 
-@import "partials/_reset.scss";
-@import "partials/_defaults.scss";
-@import "partials/_structure-layout.scss";
-@import "partials/_common-classes.scss";
-@import "partials/_widgets.scss";
-@import "partials/_plugins.scss";
-@import "partials/_skip-links.scss";
-@import "partials/_site-header.scss";
-@import "partials/_site-navigation.scss";
-@import "partials/_content-area.scss";
-@import "partials/_sidebar.scss";
-@import "partials/_footer-widgets.scss";
-@import "partials/_site-footer.scss";
-@import "partials/_mobile-first.scss";
-@import "partials/_media-queries.scss";
-@import "partials/_print-styles";
-@import "partials/_mixins.scss";
-@import "partials/_pages.scss";
+//Compass Imports
+@import "compass";
+@import "compass/reset";
+@import "compass/css3/box-shadow";
+
+//Core Partials
+@import "reset";
+@import "defaults";
+@import "structure-layout";
+@import "common-classes";
+@import "widgets";
+@import "plugins";
+@import "skip-links";
+@import "site-header";
+@import "site-navigation";
+@import "content-area";
+@import "sidebar";
+@import "footer-widgets";
+@import "site-footer";
+@import "mobile-first";
+@import "media-queries";
+@import "print-styles";
+@import "mixins";
+@import "pages";

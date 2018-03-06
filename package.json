@@ -1,0 +1,27 @@
+{
+  "name": "langenstein-farms",
+  "version": "0.0.1",
+  "description": "Langenstein Farms Website Project Workflow",
+  "main": "gulpfile.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikehaley1999/l-farms.git"
+  },
+  "keywords": [
+    "Langestein",
+    "Farms",
+    "Website"
+  ],
+  "author": "Mauka Makai Media",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikehaley1999/l-farms/issues"
+  },
+  "homepage": "https://github.com/mikehaley1999/l-farms#readme"
+}
