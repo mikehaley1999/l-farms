@@ -1,4 +1,5 @@
 .htaccess
+.sass-cache
 wp-config.php
 wp-content/uploads/
 wp-content/blogs.dir/
@@ -10,6 +11,8 @@ sitemap.xml
 *.log
 wp-content/cache/
 wp-content/backups/
+/images
+/node_modules
 sitemap.xml
 sitemap.xml.gz
 .DS_Store
