@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/mikehaley1999/l-farms/issues"
   },
-  "homepage": "https://github.com/mikehaley1999/l-farms#readme"
+  "homepage": "https://github.com/mikehaley1999/l-farms#readme",
+  "dependencies": {
+    "gulp-browserify": "^0.5.1",
+    "gulp-coffee": "^3.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0"
+  }
 }
