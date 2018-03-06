@@ -1,0 +1,30 @@
+/* # Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.footer-widgets {
+	background-color: #fff;
+	clear: both;
+	font-size: 18px;
+	font-size: 1.8rem;
+	padding: 60px 0;
+	overflow: hidden;
+}
+
+.footer-widget-area {
+	margin-bottom: 40px;
+}
+.footer-widget-area:last-child {
+	margin-bottom: 0;
+}
+
+@supports (grid-area: auto) {
+
+	.footer-widgets {
+		overflow: visible;
+	}
+
+	.footer-widget-area {
+		margin-bottom: 0;
+	}
+
+}

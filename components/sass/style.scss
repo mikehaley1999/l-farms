@@ -1,0 +1,94 @@
+/*
+	Theme Name: Langenstein Farms
+	Theme URI: https://github.com/srikat/genesis-starter/
+	Description: This is customization of the sample theme created for the Genesis Framework.
+	Author: Sridhar Katakam
+	Author URI: https://sridharkatakam.com/
+
+	Version: 2.3.0
+
+	Tags: black, red, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+	Template: genesis
+	Template Version: 2.3.0
+
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+	Text Domain: langenstein-farms
+*/
+
+/* # Table of Contents
+- HTML5 Reset
+	- Baseline Normalize
+	- Box Sizing
+- Defaults
+	- Typographical Elements
+	- Headings
+	- Objects
+	- Gallery
+	- Forms
+	- Tables
+	- Screen Reader Text
+- Structure and Layout
+	- Site Containers
+	- Column Classes
+- Common Classes
+	- Avatar
+	- Genesis
+	- Search Form
+	- Titles
+	- WordPress
+- Widgets
+	- Featured Content
+- Plugins
+	- Genesis eNews Extended
+	- Jetpack
+- Skip Links
+- Site Header
+	- Title Area
+- Site Navigation
+	- Accessible Menu
+	- Site Header Navigation
+	- After Header Navigation
+	- Footer Navigation
+- Content Area
+	- Entries
+	- Entry Meta
+	- Pagination
+	- Comments
+- Sidebars
+- Footer Widgets
+- Site Footer
+- Mobile First
+- Media Queries
+	- Min-width: 401px
+	- Min-width: 501px
+	- Min-width: 861px
+	- Max-width: 1023px
+	- Min-width: 1024px
+	- Min-width: 1201px
+	- Min-width: 1341px
+- Print Styles
+- Pages
+- Mixins
+*/
+
+@import "partials/_reset.scss";
+@import "partials/_defaults.scss";
+@import "partials/_structure-layout.scss";
+@import "partials/_common-classes.scss";
+@import "partials/_widgets.scss";
+@import "partials/_plugins.scss";
+@import "partials/_skip-links.scss";
+@import "partials/_site-header.scss";
+@import "partials/_site-navigation.scss";
+@import "partials/_content-area.scss";
+@import "partials/_sidebar.scss";
+@import "partials/_footer-widgets.scss";
+@import "partials/_site-footer.scss";
+@import "partials/_mobile-first.scss";
+@import "partials/_media-queries.scss";
+@import "partials/_print-styles";
+@import "partials/_mixins.scss";
+@import "partials/_pages.scss";

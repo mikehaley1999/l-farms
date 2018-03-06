@@ -1,0 +1,241 @@
+/* # Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 401px) {
+
+	.site-header {
+		overflow: hidden;
+	}
+
+	.site-header > .wrap {
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+	}
+
+	.nav-primary {
+		clear: both;
+	}
+
+	.title-area {
+		float: left;
+	}
+
+	.menu-toggle {
+		float: right;
+		margin-top: 10px;
+	}
+
+	.wp-custom-logo .title-area {
+		margin-bottom: 0;
+	}
+
+	.menu-toggle,
+	.sub-menu-toggle {
+		margin: 0;
+	}
+
+	@supports (grid-area: auto) {
+
+		.site-header {
+			overflow: visible;
+		}
+
+		.title-area {
+			float: none;
+		}
+
+		.nav-primary {
+			clear: none;
+		}
+
+		.menu-toggle {
+			float: none;
+			margin-top: 0;
+		}
+
+	}
+
+}
+
+@media only screen and (min-width: 501px) {
+
+	.gallery-columns-3 {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.gallery-columns-4 {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.gallery-columns-5 {
+		grid-template-columns: repeat(5, 1fr);
+	}
+
+	.gallery-columns-6 {
+		grid-template-columns: repeat(6, 1fr);
+	}
+
+	.gallery-columns-7 {
+		grid-template-columns: repeat(7, 1fr);
+	}
+
+	.gallery-columns-8 {
+		grid-template-columns: repeat(8, 1fr);
+	}
+
+	.gallery-columns-9 {
+		grid-template-columns: repeat(9, 1fr);
+	}
+
+	.gallery {
+		overflow: hidden;
+	}
+
+	.gallery-item {
+		float: left;
+		margin: 0 0 28px;
+	}
+
+	.gallery-columns-1 .gallery-item {
+		width: 100%;
+	}
+
+	.gallery-columns-2 .gallery-item {
+		width: 50%;
+	}
+
+	.gallery-columns-3 .gallery-item {
+		width: 33%;
+	}
+
+	.gallery-columns-4 .gallery-item {
+		width: 25%;
+	}
+
+	.gallery-columns-5 .gallery-item {
+		width: 20%;
+	}
+
+	.gallery-columns-6 .gallery-item {
+		width: 16.6666%;
+	}
+
+	.gallery-columns-7 .gallery-item {
+		width: 14.2857%;
+	}
+
+	.gallery-columns-8 .gallery-item {
+		width: 12.5%;
+	}
+
+	.gallery-columns-9 .gallery-item {
+		width: 11.1111%;
+	}
+
+	.gallery-columns-2 .gallery-item:nth-child(2n+1),
+	.gallery-columns-3 .gallery-item:nth-child(3n+1),
+	.gallery-columns-4 .gallery-item:nth-child(4n+1),
+	.gallery-columns-5 .gallery-item:nth-child(5n+1),
+	.gallery-columns-6 .gallery-item:nth-child(6n+1),
+	.gallery-columns-7 .gallery-item:nth-child(7n+1),
+	.gallery-columns-8 .gallery-item:nth-child(8n+1),
+	.gallery-columns-9 .gallery-item:nth-child(9n+1) {
+		clear: left;
+	}
+
+	img.alignleft {
+		float: left;
+	}
+
+	img.alignright {
+		float: right;
+	}
+
+	@supports (grid-area: auto) {
+
+		.gallery {
+			overflow: visible;
+		}
+
+		.gallery-item {
+			float: none;
+			margin: 0;
+		}
+
+		.gallery-columns-1 .gallery-item,
+		.gallery-columns-2 .gallery-item,
+		.gallery-columns-3 .gallery-item,
+		.gallery-columns-4 .gallery-item,
+		.gallery-columns-5 .gallery-item,
+		.gallery-columns-6 .gallery-item,
+		.gallery-columns-7 .gallery-item,
+		.gallery-columns-8 .gallery-item,
+		.gallery-columns-9 .gallery-item {
+			width: auto;
+		}
+
+		.gallery-columns-2 .gallery-item:nth-child(2n+1),
+		.gallery-columns-3 .gallery-item:nth-child(3n+1),
+		.gallery-columns-4 .gallery-item:nth-child(4n+1),
+		.gallery-columns-5 .gallery-item:nth-child(5n+1),
+		.gallery-columns-6 .gallery-item:nth-child(6n+1),
+		.gallery-columns-7 .gallery-item:nth-child(7n+1),
+		.gallery-columns-8 .gallery-item:nth-child(8n+1),
+		.gallery-columns-9 .gallery-item:nth-child(9n+1) {
+			clear: none;
+		}
+
+	}
+
+}
+
+@media only screen and (min-width: 861px) {
+
+	.site-header > .wrap {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.site-inner {
+		padding: 40px 0 0 0;
+	}
+
+	.entry {
+		margin-bottom: 40px;
+		padding: 70px 80px;
+	}
+
+	.sidebar,
+	.after-entry,
+	.archive-description,
+	.author-box,
+	.comment-respond,
+	.entry, .entry-comments,
+	.entry-pings,
+	.sidebar .widget {
+		margin-bottom: 40px;
+	}
+
+	.sidebar .widget {
+		padding: 40px;
+	}
+
+	.comment-respond,
+	.entry-pings {
+		padding: 60px 60px 32px;
+	}
+
+	.wrap {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.pagination {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+}
